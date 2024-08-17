@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+
+    <!------------------------- header-section ------------------------->
+
+    <section class="sub-header">
+      <div class="nav-manu">
+        <div class="nav-logo">
+          <img src="logo.png" alt="" />
+        </div>
+        <div class="nav-list" id="nav-list">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </div>
+      <h1>About Us</h1>
+    </section>
+
+    <!------------------------- about us content ------------------------->
+
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the World Largrst University</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quia
+          autem nemo! Quibusdam, eum quidem sed sit eos ratione veniam dolore,
+          facere cupiditate et ad. Velit sunt fuga excepturi error dolorum
+          corrupti natus, odio provident voluptatibus, aperiam nostrum quaerat
+          delectus. Atque rem id delectus doloribus alias est labore, facilis
+          fugiat, debitis aperiam eum magnam beatae.
+        </p>
+        <a href="" class="hero-btn1">Explore Now</a>
+    </div>
+        <div class="about-col">
+            <img src="about.jpg" alt="">
+        </div>
+    </section>
+
+    <!------------------------- footer ------------------------->
+    <section class="footer">
+      <h4>About US</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero impedit
+        molestiae nobis minus ipsum<br />
+        quae quisquam unde. Nostrum, dolorum? Minus repellat accusamus alias
+        deserunt aliquam.
+      </p>
+      <div class="icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>Made With <i class="fa-regular fa-heart"></i> By Easy Tutorial</p>
+    </section>
+
+    <script>
+      var navlist = document.getElementById("nav-list");
+      function showmenu() {
+        navlist.style.right = "0";
+      }
+      function hidemenu() {
+        navlist.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--------------------------- header-section --------------------------->
+    <section class="sub-header">
+      <div class="nav-manu">
+        <div class="nav-logo">
+          <img src="logo.png" alt="" />
+        </div>
+        <div class="nav-list" id="nav-list">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </div>
+      <h1>Our Certificate & Online Program for 2024</h1>
+    </section>
+
+    <!--------------------------- Blog-Content --------------------------->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="certificate.jpg" alt="" />
+          <h2>Our Certificate & Online Program for 2024</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            delectus facilis expedita voluptatum ducimus, quaerat doloribus
+            nobis at laboriosam explicabo eum quae quos, perferendis maiores
+            nesciunt? Laboriosam voluptatum, adipisci voluptas id dicta atque
+            nihil dolorem! Dolore odio sequi nulla molestias.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+            quae, animi, at illo obcaecati quod a illum quibusdam dolorum omnis
+            praesentium eius est quaerat explicabo! Adipisci odio rerum earum.
+            Minima nihil, quia animi reprehenderit est iure temporibus eligendi
+            maiores quaerat consectetur dolore eveniet fugiat! Facere mollitia
+            nisi ea quidem perspiciatis! Nihil voluptatibus id incidunt laborum
+            minima deserunt debitis eveniet, excepturi velit? Cupiditate
+            incidunt ratione quos quam ad quibusdam quae totam, doloribus, fugit
+            labore, sed odit dolores explicabo veritatis facilis iste?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo rerum
+            reiciendis ducimus unde cupiditate. Aliquid dignissimos accusantium
+            assumenda consequatur illo dolorum nulla. Sint quidem dolorem
+            maiores laboriosam eum tenetur hic veniam quis, quos ad accusamus
+            suscipit sunt perspiciatis quam quibusdam voluptatem incidunt dolore
+            facere beatae pariatur. Culpa expedita, hic voluptatem
+            exercitationem soluta amet sint sequi incidunt accusantium nisi
+            aperiam explicabo?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo rem
+            totam illo nihil illum, amet quis, itaque debitis molestiae sit eum
+            accusantium ad adipisci doloribus asperiores ab magnam autem error.
+            Iure, quia? Minima voluptatibus labore necessitatibus fugit eos
+            accusantium molestiae.
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero-btn1" id="hero">POST COMMENT</button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Catagories</h3>
+          <div>
+            <span>Buisness Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>20</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>AutoCad</span>
+            <span>42</span>
+          </div>
+          <div>
+            <span>Journalism</span>
+            <span>30</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+            <span>22</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------- footer --------------------------->
+
+    <section class="footer">
+      <h4>About US</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero impedit
+        molestiae nobis minus ipsum<br />
+        quae quisquam unde. Nostrum, dolorum? Minus repellat accusamus alias
+        deserunt aliquam.
+      </p>
+      <div class="icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>Made With <i class="fa-regular fa-heart"></i> By Easy Tutorial</p>
+    </section>
+
+    <script>
+      var navlist = document.getElementById("nav-list");
+      function showmenu() {
+        navlist.style.right = "0";
+      }
+      function hidemenu() {
+        navlist.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
